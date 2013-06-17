@@ -1,0 +1,8 @@
+﻿<Application x:Class="VCTestingWpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:vcTestingWpf="clr-namespace:VCTestingWpf"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <vcTestingWpf:MyValueConverter x:Key="MyValueConverter" /> 
+    </Application.Resources>
+</Application>
